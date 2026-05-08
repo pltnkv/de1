@@ -1,0 +1,8 @@
+node_modules
+dist
+.DS_Store
+*.local
+.vite
+
+# Raw extracts used by scripts/importQuestions.ts before they're committed as JSON
+data-raw/

@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm --version)",
+      "Bash(npm create *)",
+      "Bash(yes \"\")",
+      "Bash(touch /tmp/case-test/CASE.txt)",
+      "Bash(mkdir -p /tmp/case-test)",
+      "Bash(touch /tmp/case-test/test.md)",
+      "Bash(touch /tmp/case-test/TEST.md)",
+      "Read(//tmp/**)",
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "WebFetch(domain:oet.bamf.de)",
+      "WebSearch",
+      "Bash(pdftotext -v)",
+      "Bash(brew list *)",
+      "Bash(npm view *)",
+      "Bash(uuidgen)",
+      "Bash(npx tsx *)",
+      "Bash(grep -n \"Aufgabe 1$\" /Users/pltnkv/dev/de-a1/data-raw/gesamtfragenkatalog.txt)",
+      "Bash(xxd)",
+      "WebFetch(domain:github.com)",
+      "Bash(npm uninstall *)"
+    ]
+  }
+}
