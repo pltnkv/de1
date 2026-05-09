@@ -3,6 +3,7 @@ dist
 .DS_Store
 *.local
 .vite
+*.tsbuildinfo
 
 # Raw extracts used by scripts/importQuestions.ts before they're committed as JSON
 data-raw/
